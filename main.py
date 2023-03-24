@@ -8,12 +8,6 @@ events = Events(bot)
 async def on_ready_example():
  print("Bot is ready!")
 
-@events.on_member_join
-async def member_joined(member):
-    bot.send_message("f9cbb9fc-f175-4e5e-b6f6-b9e8823ce926", f" has joined the server!")
-@events.on_member_leave
-async def member_leave(member):
-    bot.send_message("f9cbb9fc-f175-4e5e-b6f6-b9e8823ce926", f" has leaved the server!")
 @events.on_message
 async def clearcommand(message):
     if message.content == f"{config.PREFIX}clear":
