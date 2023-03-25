@@ -4,7 +4,8 @@ websockets == 10.4
 
 
 to install you will need to do 
-```pip install nextguild```\n
+```pip install nextguild```
+
 ```pip install requests```
 ```pip install webockets```
 to update you will need to do 
