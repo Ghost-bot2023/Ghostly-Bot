@@ -1,5 +1,8 @@
+
 nextguild == 1.0.4
+
 requests == 2.28.2 
+
 websockets == 10.4
 
 
