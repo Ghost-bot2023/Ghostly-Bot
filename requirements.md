@@ -3,7 +3,7 @@ requests == 2.28.2
 websockets == 10.4
 
 
-to install you will need to do 
+To install you will need to do 
 
 ```pip install nextguild```
 
@@ -11,7 +11,7 @@ to install you will need to do
 
 ```pip install webockets```
 
-to update you will need to do 
+To update you will need to do 
 
 ``` pip install --upgrade nextguild```
 
